@@ -1,0 +1,6 @@
+rootProject.name = 'birch'
+include 'core'
+findProject(':core').name = 'birch-core'
+include 'slf4j'
+findProject(':slf4j')?.name = 'birch-slf4j'
+
